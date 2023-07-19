@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>
+        Formulario de Caracterización Socioeconómica - Demanda por Alimentos
+      </h1>
+    </header>
+    <form action="">
+      <!-- Datos del demandante -->
+      <section>
+        <fieldset>
+          <legend>Datos personales del demandante</legend>
+          <div>
+            <label for="nombreDemandante">Nombre completo:</label>
+            <input type="text" id="nombreDemandante" />
+          </div>
+          <div>
+            <label for="DNI/NIFDemandante">DNI/NIF:</label>
+            <input type="number" id="DNI/NIFDemandante" />
+          </div>
+          <div>
+            <label for="fehaNacimientoDemandante">Fecha de nacimiento:</label>
+            <input type="date" id="fehaNacimientoDemandante" />
+          </div>
+          <div>
+            <label for="generoDemandante">Género:</label>
+            <select name="generoDemandante" id="generoDemandante">
+              <option value="">Seleccionar</option>
+              <option value="">Hombre</option>
+              <option value="">Mujer</option>
+              <option value="">Otro</option>
+            </select>
+          </div>
+          <div>
+            <label for="direccionDemandante">Dirección:</label>
+            <input type="text" id="direccionDemandante" />
+          </div>
+          <div>
+            <label for="telefonoDemandante">Teléfono:</label>
+            <input type="number" id="telefonoDemandante" />
+          </div>
+          <div>
+            <label for="emailDemandante">Email:</label>
+            <input type="text" id="emailDemandante" />
+          </div>
+        </fieldset>
+      </section>
+
+      <!-- Datos del demandado -->
+      <section>
+        <fieldset>
+          <legend>Datos personales del demandado</legend>
+          <div>
+            <label for="nombreDemandado">Nombre completo:</label>
+            <input type="text" id="nombreDemandado" />
+          </div>
+          <div>
+            <label for="DNI/NIFDemandado">DNI/NIF:</label>
+            <input type="number" id="DNI/NIFDemandado" />
+          </div>
+          <div>
+            <label for="fehaNacimientoDemandado">Fecha de nacimiento:</label>
+            <input type="date" id="fehaNacimientoDemandado" />
+          </div>
+          <div>
+            <label for="generoDemandado">Género:</label>
+            <select name="generoDemandado" id="generoDemandado">
+              <option value="">Seleccionar</option>
+              <option value="">Hombre</option>
+              <option value="">Mujer</option>
+              <option value="">Otro</option>
+            </select>
+          </div>
+          <div>
+            <label for="direccionDemandado">Dirección:</label>
+            <input type="text" id="direccionDemandado" />
+          </div>
+          <div>
+            <label for="telefonoDemandado">Teléfono:</label>
+            <input type="number" id="telefonoDemandado" />
+          </div>
+          <div>
+            <label for="emailDemandado">Email:</label>
+            <input type="text" id="emailDemandado" />
+          </div>
+        </fieldset>
+      </section>
+
+      <!-- Situación laboral del demandante -->
+      <section>
+        <fieldset>
+          <legend>Situación laboral del demandante</legend>
+          <div>
+            <label for="ocupacionDemandante">Ocupación actual:</label>
+            <input type="text" id="ocupacionDemandante" />
+          </div>
+          <div>
+            <label for="ingresosMensualesDemandante">Ingresos mensuales:</label>
+            <input type="number" id="ingresosMensualesDemandante" />
+          </div>
+          <div>
+            <label for="horasTrabajadasSemanaDemandante"
+              >Horas de trabajo por semana:</label
+            >
+            <input type="number" id="horasTrabajadasSemanaDemandante" />
+          </div>
+          <div>
+            <label for="">¿Tiene un trabajo estable?</label>
+            <label for="si">
+              <input
+                type="radio"
+                id="si"
+                name="tieneTrabajoEstableDemandante"
+              />Sí
+            </label>
+            <label for="no">
+              <input
+                type="radio"
+                id="no"
+                name="tieneTrabajoEstableDemandante"
+              />No
+            </label>
+          </div>
+        </fieldset>
+      </section>
+
+      <!-- Situación laboral del demandado -->
+      <section>
+        <fieldset>
+          <legend>Situación laboral del demandado</legend>
+          <div>
+            <label for="ocupacionDemandado">Ocupación actual:</label>
+            <input type="text" id="ocupacionDemandado" />
+          </div>
+          <div>
+            <label for="ingresosMensualesDemandado">Ingresos mensuales:</label>
+            <input type="number" id="ingresosMensualesDemandado" />
+          </div>
+          <div>
+            <label for="horasTrabajadasSemanaDemandado"
+              >Horas de trabajo por semana:</label
+            >
+            <input type="number" id="horasTrabajadasSemanaDemandado" />
+          </div>
+          <div>
+            <label for="tieneTrabajoEstableDemandado"
+              >¿Tiene un trabajo estable?</label
+            >
+            <label for="si">
+              <input
+                type="radio"
+                id="si"
+                name="tieneTrabajoEstableDemandado"
+              />Sí
+            </label>
+            <label for="no">
+              <input
+                type="radio"
+                id="no"
+                name="tieneTrabajoEstableDemandado"
+              />No
+            </label>
+          </div>
+        </fieldset>
+      </section>
+
+      <!-- Situación económica del demandante -->
+      <section>
+        <fieldset>
+          <legend>Situación económica del demandante</legend>
+          <div>
+            <label for="gastosBasicosMesDemandante"
+              >Gastos básicos mensuales:</label
+            >
+            <input type="number" id="gastosBasicosMesDemandante" />
+          </div>
+          <div>
+            <label for="deudasMesDemandante">Deudas mensuales:</label>
+            <input type="number" id="deudasMesDemandante" />
+          </div>
+          <div>
+            <label for="ahorrosMesDemandante">Ahorros mensuales:</label>
+            <input type="number" id="ahorrosMesDemandante" />
+          </div>
+        </fieldset>
+      </section>
+
+      <!-- Situación económica del demandante -->
+      <section>
+        <fieldset>
+          <legend>Situación económica del demandado</legend>
+          <div>
+            <label for="gastosBasicosMesDemandado"
+              >Gastos básicos mensuales:</label
+            >
+            <input type="number" id="gastosBasicosMesDemandado" />
+          </div>
+          <div>
+            <label for="deudasMesDemandado">Deudas mensuales:</label>
+            <input type="number" id="deudasMesDemandado" />
+          </div>
+          <div>
+            <label for="ahorrosMesDemandado">Ahorros mensuales:</label>
+            <input type="number" id="ahorrosMesDemandado" />
+          </div>
+        </fieldset>
+      </section>
+
+      <!-- Número de hijos en común -->
+      <section>
+        <fieldset>
+          <legend>Número de hijos en común</legend>
+          <div>
+            <label for="numeroHijosComun">Número de hijos en común:</label>
+            <input type="number" id="numeroHijosComun" />
+          </div>
+        </fieldset>
+      </section>
+
+      <!-- Información adicional -->
+      <section>
+        <fieldset>
+          <legend>Información adicional</legend>
+          <div>
+            <div>
+              <textarea
+                name="motivoDemanda"
+                id="motivoDemanda"
+                cols="30"
+                rows="10"
+              ></textarea>
+            </div>
+            <label for="motivoDemanda"
+              >Motivo de la demanda por alimentos:</label
+            >
+          </div>
+          <div>
+            <label for="documentosAdjuntos"
+              >Documentos adjuntos (certificados,constancias,etc.):</label
+            >
+            <input type="file" id="documentosAdjuntos" />
+          </div>
+        </fieldset>
+      </section>
+
+      <!-- Declaración jurada -->
+      <section>
+        <fieldset>
+          <legend>Declaración Jurada</legend>
+          <p>
+            Declaro bajo juramento que los datos proporcionados son veraces y
+            que me encuentro en la situación socioeconómica descrita.
+          </p>
+          <div>
+            <input type="checkbox" id="aceptaDeclaracionJurada" />
+            <label for="aceptaDeclaracionJurada"
+              >Acepto la declaración jurada</label
+            >
+          </div>
+        </fieldset>
+      </section>
+
+      <input type="submit" />
+    </form>
+  </body>
+</html>
